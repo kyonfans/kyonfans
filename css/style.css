@@ -13,6 +13,9 @@
 .col-12 {width: 100%;}
 
 /* For all */
+body {
+  background-color: #f8f8f8;
+}
 * {
   box-sizing: border-box;
 }
@@ -41,7 +44,7 @@ img {
   float: left;
   font-size: 30px;
   font-weight: 700;
-  color:#33CCFF;
+  color:#FF3333;
 }
 .nav-holder {
   float: left;
@@ -62,41 +65,44 @@ img {
   letter-spacing: 2px;
   display: block;
   vertical-align: top;
-  margin-left: 15px;
+  margin-left: 100px;
   padding: 4px 0 4px 20px;
-  text-align: left;
+  text-align: center;
 }
 #nav ul li a {
   padding: 1px 6px;
   border-radius: 6px;
   text-decoration: none;
-  color: #1677CB;
+  color: 	#FF8888;
   display: block;
   transition: color 0.4s ease;
 }
 #nav ul li a:hover {
-  background-color: #33CCFF;
+  background-color: #FF3333;
   color: white;
   border-radius: 6px;
+  transition: color 0.4s ease;
 }
+
 #bs-example-navbar-collapse-1 .navbar-nav {
   margin: 7.5px -15px;
+  /* float:right; */
 }
 .option-style {
-    border-left: solid 3px #33CCFF;
+    border-left: solid 3px #FF3333;
     }
 
 /* For article web-wrap */
 .web-wrap {
   background-image: url(../img/background-castle.jpg);
-  border:solid 10px #33CCFF;
+  border:solid 10px #FF3333;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 570px;
 }
 .web-text {
-  color: #33CCFF;
+  color: #FF3333;
   vertical-align: middle;
   padding: 20px 0;
 }
@@ -129,7 +135,7 @@ img {
   line-height: 30px;
   letter-spacing: 5px;
   font-weight: 500;
-  background: #33CCFF;
+  background: #FF3333;
   text-decoration: none;
   color: #fff;
   display: inline-block;
@@ -140,7 +146,7 @@ img {
   transition: 0.4s ease;
 }
 .btn-style:visited {
-  background: #33CCFF;
+  background: #FF3333;
   color: white;
   text-decoration: none;
 }
@@ -166,7 +172,7 @@ img {
   font-weight: 700;
 }
 .title-style i{
-  color:#33CCFF;
+  color:#FF3333;
   margin:0 10px;
 }
 .testimonial-block-holder {
@@ -178,10 +184,10 @@ img {
   content: '';
   position: absolute;
   bottom: 0;
-  left: 0;
-  right: 0;
-  height: 5px;
-  background: #33CCFF;
+  left: 15px;
+  right: 15px;
+  height: 3px;
+  background: #FF3333;
   max-width: 1020px;
   margin: 0 auto;
   border-radius: 2px;
@@ -199,8 +205,8 @@ img {
   margin: 0;
 }
 .testimonial-block-img-holder img {
-  border: 5px solid #33CCFF;
-  border-radius: 50%;
+  border: 5px solid #FF3333;
+  border-radius: 25%;
   overflow: hidden;
 }
 .testimonial-block-text-holder {
@@ -222,16 +228,6 @@ img {
   display: block;
   text-transform: uppercase;
   }
-.personal-style:after {
-  left: 0px;
-  position: absolute;
-  bottom: 0;
-  height: 5px;
-  width: 30px;
-  border-radius: 2px;
-  background: #33CCFF;
-  content: '';
-    }
 .content-style {
   font-size: 24px;
   line-height: 41px;
@@ -242,6 +238,14 @@ img {
 /*For atrticle service*/
 #service-block-wrap {
   text-align: center;
+}
+#service-block-wrap a>img{
+  border: solid 3px #FF8888;
+  border-radius: 25px;
+}
+#service-block-wrap a:hover>img{
+  border: solid 3px #FF3333;
+  border-radius: 25px;
 }
 #service-block-wrap .holder {
   padding: 107px 0px 79px;
@@ -265,7 +269,7 @@ img {
   font-size: 20px;
   line-height: 32px;
   padding: 0 0 0 103px;
-  min-height: 235px;
+  min-height: 280px;
   float: right;
   letter-spacing: 4px;
   font-weight: 500;
@@ -274,7 +278,7 @@ img {
   font-size: 32px;
   line-height: 41px;
   font-weight: 700;
-  color: #33CCFF;
+  color: #FF3333;
   margin: 0 0 15px;
 }
 #service-block-wrap .img-holder {
@@ -327,9 +331,9 @@ img {
   bottom: 0;
   left: 20px;
   right: 20px;
-  height: 5px;
+  height: 3px;
   border-radius: 2px;
-  background: #33CCFF;
+  background: #FF3333;
 }
 
 /*For article smallinfo*/
@@ -364,16 +368,7 @@ img {
   margin: 0 0 33px;
   text-align: center;
 }
-#small-info-wrap .holder:after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 20px;
-  right: 20px;
-  height: 5px;
-  border-radius: 2px;
-  background: #33CCFF;
-}
+
 
 /* For article process */
 #process-wrap .holder {
@@ -399,7 +394,7 @@ img {
   font-size: 32px;
   line-height: 41px;
   font-weight: 700;
-  color: #33CCFF;
+  color: #FF3333;
 }
 #process-wrap .img-holder {
   height: 173px;
@@ -487,7 +482,6 @@ img {
 /* For footer */
 #footer {
   clear: both;
-  padding-bottom: 60px;
   display: block;
 }
 #footer .holder {
@@ -501,13 +495,13 @@ img {
  left: 15px;
  right: 15px;
  border-radius: 6px;
- height: 4px;
- background: #33CCFF;
+ height: 3px;
+ background: #FF3333;
 }
 .contact-info {
  font-size: 20px;
  line-height: 38px;
- padding: 20px 0 0;
+ padding: 0;
  float: left;
  letter-spacing: 2px;
  margin: 0;
@@ -522,8 +516,8 @@ img {
 .contact-text {
   padding: 0;
   list-style: none;
-  font-size: 20px;
-  line-height: 38px;
+  font-size: 16px;
+  line-height: 20px;
   font-weight: 500;
 }
 .social-networks {
@@ -543,39 +537,45 @@ img {
 .btn-fb {
  color: white;
  padding: 0 10px;
- background-color: #1677CB;
+ background-color: #FF8888;
  transition: color 0.4s ease;
  text-decoration: none;
  border-radius: 5px;
 }
 .btn-fb:visited{
-  background-color: #1677CB;
+  background-color: #FF8888;
   color: white;
   text-decoration: none;
 }
 .btn-fb:hover {
  color: white;
- background-color: #33CCFF;
+ background-color: #FF3333;
 }
 .button{
  font-size: 26px;
  font-weight: 500;
- background: #33CCFF;
+ background: #FF8888;
  text-decoration: none;
- color: #fff;
+ color: white;
  border-radius: 10px;
  padding: 10px 15px;
  transition: 0.4s ease;
  position: fixed;
- bottom: 80px;
+ bottom: 20px;
  right: 20px;
- opacity: 0.7;
 }
 .button:hover {
-  background-color: #1677CB;
+  background-color: #FF3333;
+  color: white;
+}
+.button:focus {
+  color: white;
+}
+/* .button:visited {
+  background-color: #FF8888;
   color: white;
   text-decoration: none;
-}
+} */
 
 /*For article billing-wrap*/
  .billing-wrap .holder {
@@ -591,7 +591,7 @@ img {
   display: block;
   text-align: center;
   letter-spacing: -6px;
-  border: 8px solid #33CCFF;
+  border: 8px solid #FF3333;
   border-radius: 15px;
   list-style: none;
 }
@@ -649,7 +649,7 @@ table {
   padding: 15px 10px;
   vertical-align: bottom;
   font-weight: 700;
-  border-bottom: solid 4px #33CCFF;
+  border-bottom: solid 4px #FF3333;
   text-align: center;
   height: 93px;
 }
@@ -668,7 +668,7 @@ table {
   font-size: 20px;
   line-height: 24px;
   vertical-align: middle;
-  border-bottom: solid 2px #33CCFF;
+  border-bottom: solid 2px #FF3333;
   padding: 20px 10px;
   height: 93px;
 }
@@ -686,7 +686,7 @@ table {
     margin: 0 auto;
     position: absolute;
     right: -9999px;
-    border: double 4px #33CCFF;
+    border: double 4px #FF3333;
 }
 .price-table tbody:last-child tr:last-child td:first-child:after {
   border: 0;
@@ -695,7 +695,7 @@ table {
   border-bottom: none;
 }
 .price-table tbody:last-child tr:last-child {
-  border-bottom: 4px solid #33CCFF;
+  border-bottom: 4px solid #FF3333;
 }
 .price-note {
   margin: 0 0 25px 0;
@@ -715,7 +715,7 @@ table {
   line-height: 30px;
   letter-spacing: 1px;
   font-weight: 500;
-  background: #33CCFF;
+  background: #FF3333;
   text-decoration: none;
   color: #fff;
   display: inline-block;
@@ -726,7 +726,7 @@ table {
   transition: 0.4s ease;
 }
 .btn-style2:visited {
-  background: #33CCFF;
+  background: #FF3333;
   color: white;
   text-decoration: none;
 }
@@ -739,7 +739,7 @@ table {
 /*For price-services*/
 .price-services {
   font-family: "微軟正黑體";
-  margin: 0 auto 70px;
+  margin: 70px auto 70px;
   max-width: 670px;
   padding: 0 15px;
   counter-reset: num-count1;
@@ -753,15 +753,15 @@ table {
   color: #1677CB;
   font-weight: 700;
   text-align: center;
-  border-bottom: solid 3px #33CCFF;
+  border-bottom: solid 3px #FF3333;
   margin: 0 0 29px 0;
 }
 .price-services .title i {
   color: red;
 }
 .price-services li {
-  font-size: 24px;
-  line-height: 52px;
+  font-size: 16px;
+  line-height: 40px;
   position: relative;
   list-style-type: none;
 }
@@ -771,6 +771,32 @@ table {
   position:absolute;
   top:0;
   left:-29px;
+}
+#history {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 265px;
+    margin: 0px;
+    padding: 30px;
+}
+#history dl{
+  overflow: auto;
+  height: 100%;
+}
+#history dl dt {
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    line-height: 15px;
+}
+#history dl dt::before {
+content: <i class="fa fa-genderless" aria-hidden="true"></i>;
+}
+#history dl dd {
+    clear: left;
+    border-bottom: solid 1px #DDDDDD;
+    padding-bottom: 10px;
 }
 .mobile-table ul {
   padding: 0;
@@ -800,10 +826,10 @@ table {
   margin: 48px 0 24px 0;
   font-size: 32px;
   font-weight: 700;
-  color: #33CCFF;
+  color: #FF3333;
 }
 .faq-wrap .faq-title i {
-  color: #33CCFF;
+  color: #FF3333;
   padding-right: 10px;
   position: relative;
 }
@@ -837,7 +863,7 @@ table {
 .faq-q .faq-subtitle:before {
   content: 'Q :';
   position: absolute;
-  color: #33CCFF;
+  color: #FF3333;
   left:5px;
   top:10px;
   font-size: 28px;
@@ -862,7 +888,7 @@ table {
 }
 
 /* For mobile phones */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 769px) {
 
 /* For all */
     [class*="col-"] {
@@ -938,7 +964,7 @@ table {
     }
     .testimonial-block-text-holder {
       text-align: left;
-      padding: 0;
+      padding: 5px;
       display: inline-block;
       vertical-align: middle;
     }
@@ -1101,13 +1127,13 @@ table {
       line-height: 25px;
     }
 }
-@media screen and (min-width:768px) and (max-width:1024px){
+@media screen and (min-width:769px) and (max-width:1024px){
 
 /* For header */
   #nav ul li {
     font-size: 16px;
     line-height: 20px;
-    margin-left:9px;
+    margin-left:70px;
   }
 
 /* For article web-wrap */
@@ -1177,7 +1203,7 @@ table {
   }
   .testimonial-block-text-holder {
     text-align: left;
-    padding: 0;
+    padding: 0 10px;
     display: inline-block;
     vertical-align: middle;
   }
@@ -1209,7 +1235,12 @@ table {
 		width: 320px;
 	}
 }
-@media screen and (min-width:768px){
+@media screen and (max-width:769px){
+  #nav ul li {
+    margin-left:0px;
+  }
+}
+@media screen and (min-width:769px){
   .M-price-details{
 		display: none;
 	}
@@ -1218,7 +1249,7 @@ table {
 /*For article price-details Mobile*/
 .M-price-details .M-price-heading {
     padding: 0 0 10px;
-    border-bottom: 3px solid #33CCFF;
+    border-bottom: 3px solid #FF3333;
     list-style: none;
     margin: 0;
 }
@@ -1247,7 +1278,7 @@ table {
     font-weight: 700;
     letter-spacing: 2px;
     display: block;
-    color: #33CCFF;
+    color: #FF3333;
     padding: 15px 0;
     position: relative;
 }
